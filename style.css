@@ -1,0 +1,84 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    background: black;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #80d8ff, 0 0 10px #80d8ff;
+    }
+    50% {
+        text-shadow: 0 0 20px #80d8ff, 0 0 30px #80d8ff;
+    }
+    100% {
+        text-shadow: 0 0 5px #80d8ff, 0 0 10px #80d8ff;
+    }
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parallax-1 {
+    background-image: url('f1.jpg');
+}
+
+.parallax-2 {
+    background-image: url('f2.jpg');
+}
+
+.parallax-3 {
+    background-image: url('f3.jpg');
+}
+
+
+.content {
+    padding: 60px 50px;
+    background-color: black;
+}
+
+
+h1 {
+    font-size: 100px;
+    color: #80d8ff;
+    animation: glow 2s infinite alternate;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    color: #80d8ff;
+    animation: glow 2s infinite alternate;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #ccc;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Edge için scrollbar gizleme */
+}
