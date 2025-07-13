@@ -80,5 +80,5 @@ p {
 
 html::-webkit-scrollbar,
 body::-webkit-scrollbar {
-  display: none;             /* Chrome, Safari, Edge için scrollbar gizleme */
+  display: none;             
 }
