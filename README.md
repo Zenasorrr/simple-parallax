@@ -1,4 +1,4 @@
-# Paralaks Web Site
+# Paralax Web Site
 
 This project shows a modern **parallax scrolling effect** that enhances your website background with depth and smooth movement.
 
