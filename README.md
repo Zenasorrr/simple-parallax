@@ -4,9 +4,9 @@ This project shows a modern **parallax scrolling effect** that enhances your web
 
 ## Features
 
-- Dynamic parallax backgrounds:**
-- Flowing, animated text:** Titles with glowing animations in any color to grab attention.
-- Clean, responsive design:** Easy to customize and integrate into your projects.
+- **Dynamic parallax backgrounds:**
+- **Flowing, animated text:** Titles with glowing animations in any color to grab attention.
+- **Clean, responsive design:** Easy to customize and integrate into your projects.
 
 
 ## Why Use Parallax?
